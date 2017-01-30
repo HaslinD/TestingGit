@@ -1,0 +1,14 @@
+Saving this data for later important code for something to be used later on.
+
+String most2 = "";
+Detective css4 = new Detective();
+for (int i = 0; i < detec.size(); i++) {
+   for (int j = 0; j < css4.getCasos().size(); j++) {
+        if (((Casos)css4.getCasos().get(i)).getEstado().equalsIgnoreCase("Resuelto")) {
+           for (Object temp : css4.getCasos()) {
+                most2 += (css4.getCasos()).indexOf(temp) + " " + temp.toString()+ "\n";
+           }
+       }
+   }
+}
+                                                         	
